@@ -57,7 +57,7 @@ export const Nav = ({ onLight, setOnLight }) => {
       </div>
 
       <div className={style.containerButton}>
-        <p>{!onLight ? "mode night" : "mode light"}</p>
+        <p>{!onLight ? "night" : "light"}</p>
         <button onClick={modeDark}>
           <div className={onLight ? style.dot_light : style.dot_night}></div>
         </button>

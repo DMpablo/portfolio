@@ -95,6 +95,13 @@
     .container_nav_menu {
       gap: 4px;
       padding-left: 4px;
+      .space {
+        display: none;
+      }
+      .nav_menu_light, .nav_menu_night{
+        margin-left: 4px;
+        font-size: small;
+      } 
     }
     .containerButton {
       button {

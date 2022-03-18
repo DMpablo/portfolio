@@ -40,18 +40,24 @@
       overflow: hidden;
       position: relative;
       transition: .4s ease all;
-    
-      .card_title{
-        cursor: pointer;
-        position: absolute;
-        width: 100%;
-        top: 60px;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 1rem 0;
-        font-size: large;
-        transition: .4s ease all;
+      .a{
+        color: $color-disabled;
+        .card_title{
+          cursor: pointer;
+          position: absolute;
+          width: 100%;
+          top: 60px;
+          left: 50%;
+          transform: translateX(-50%);
+          margin: 1rem 0;
+          font-size: large;
+          transition: .4s ease all;
+          &:hover{
+            color: $color-cyan;
+          }
+        }
       }
+      
       .description{
         visibility: hidden;
         position: absolute;
@@ -66,7 +72,6 @@
         text-align:center;
         
         p{
-          cursor: pointer;
           margin: 1rem 4px;
           font-size: small;
           font-weight: 400;
@@ -78,6 +83,7 @@
           //background: $color-gray;
           color: $color-gray;
         }
+       
       }
       &:hover{
         color: $color-disabled;
