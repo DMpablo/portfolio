@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 300;
+  margin: 0 2rem;
+
+  .bar_x_light {
+    height: 1px;
+    margin: 0 20% 8rem 20%;
+    background: $color-disabled;
+  }
+  .bar_x_night {
+    height: 1px;
+    margin: 0 20% 8rem 20%;
+    background: $color-gray;
+  }
+  .light {
+    font-weight: 600;
+    color: $color-disabled;
+  }
+  .night {
+    color: $color-cyan;
+  }
+  @media screen and (max-width: $screen-m) {
+    font-size: x-large;
+  }
+}

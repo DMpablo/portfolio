@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lato:wght@100;400;700&display=swap');
+
+$color-black:#202020;
+$color-black2:#131313;
+$color-white2:rgb(240, 239, 239);
+$color-white:rgb(255, 255, 255);
+$color-cyan:#01d4fe;
+$color-green:#e4ee90;
+$color-orange:#ff9b72;
+$color-yelow:#fec972;
+$color-purple:#b692fe;
+$color-gray:#5a5a5a;
+$color-disabled:#b1b0b0;
+$color-red:rgb(204, 14, 14);
+
+$space-xxs:4px;
+$space-xs:8px;
+$space-s:12px;
+$space-m:24px;
+$space-l:48px;
+$space-xl:64px;
+$space-xxl:128px;
+$space-xxxl:256px;
+
+$screen-s:320px;
+$screen-m:425px;
+$screen-l:768px;
+
+
+$box-shadow: 0px 0px 14px -4px $color-black;
+$box-shadow2: 0px 0px 10px -4px $color-cyan;
+
+$border-radius: 28px;
+
+$font-family:'Lato', sans-serif;
+$font-element: 'Calligraffitti', cursive;
+
+$font-weight-s:100;
+$font-weight-m:400;
+$font-weight-l:700;

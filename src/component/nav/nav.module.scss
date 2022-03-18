@@ -1,0 +1,112 @@
+@import "../../styles/variables.scss";
+
+.containerNav {
+  background-color: $color-white2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  height: $space-l;
+  padding: 0;
+  width: 100vw;
+  font-size: large;
+  box-shadow: $box-shadow;
+  z-index: 1;
+  .container_nav_menu {
+    //padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    .space {
+      color: $color-disabled;
+      margin: 0 4px 0 1rem;
+      font-size: small;
+    }
+    .nav_menu_light{
+      font-size: medium;
+      color: $color-disabled;
+      &:hover{
+        color: $color-gray;
+      }
+    }
+    .nav_menu_night{
+      font-size: medium;
+      color: $color-gray;
+      &:hover{
+        color: $color-disabled;
+      }
+    }
+    
+   
+  }
+
+  .containerButton {
+    margin-right: 1rem;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    button {
+      cursor: pointer;
+      height: 20px;
+      width: 40px;
+      margin: 0 $space-s;
+      padding: 0 6px;
+      background: $color-gray;
+      border-radius: 20px;
+      color: $color-disabled;
+      position: relative;
+    }
+
+    .dot_light {
+      background: $color-disabled;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: unset;
+      transition: 0.4s ease all;
+    }
+    .dot_night {
+      background: $color-white2;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      position: absolute;
+      top: 0;
+      left: unset;
+      right: 0;
+      transition: 0.4s ease all;
+    }
+
+    button:hover {
+      .dot_light,
+      .dot_night {
+        background: $color-cyan;
+      }
+    }
+  }
+  @media screen and (max-width: $screen-m) {
+    font-size: small;
+    .container_nav_menu {
+      gap: 4px;
+      padding-left: 4px;
+    }
+    .containerButton {
+      button {
+        height: 15px;
+        width: 30px;
+        margin: 0 4px;
+        .dot_light,
+        .dot_night {
+          height: 15px;
+          width: 15px;
+        }
+      }
+    }
+  }
+}

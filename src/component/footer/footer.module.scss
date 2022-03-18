@@ -1,0 +1,68 @@
+@import "../../styles/variables.scss";
+
+.container {
+  display: block;
+  justify-content: center; 
+  text-align: center;
+  margin-top: 4rem;
+  width: 100%;
+  //height: 80vh;
+  font-size: x-large;
+  font-weight: 600;
+
+  .bar_x_light {
+    height: 1px;
+    margin: 0 20% 8rem 20%;
+    background: $color-disabled;
+  }
+  .bar_x_night {
+    height: 1px;
+    margin: 0 20% 8rem 20%;
+    background: $color-gray;
+  }
+  .p{
+    margin-top: 6rem 0;
+    
+  }
+    .containerIcons {
+      display: flex;
+      gap: 2rem;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      font-weight: 400;
+      padding: 0 4rem;
+      width: 100%;
+      height: 80vh;
+      a{
+        height: auto;
+        width: 200px;
+        display: block;
+        padding: 1rem;
+        border-radius: 10px;
+        transition: .4s ease all;
+
+        p{
+          font-size: medium;
+          color: $color-gray;
+        }
+
+        .icons {
+          width: $space-xxl;
+          height: $space-xxl;
+          fill: $color-gray;
+        }
+        &:hover {
+          background:$color-disabled;
+          transition: .4s ease all;
+
+        }
+      }
+    }
+    @media screen and (max-width: $screen-m) {
+      .p{
+        font-size: large;
+      }
+    }
+  
+}

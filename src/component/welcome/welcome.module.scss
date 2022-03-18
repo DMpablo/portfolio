@@ -1,0 +1,63 @@
+@import "../../styles/variables.scss";
+
+.containerWelcome {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 85vh;
+  text-align: center;
+  width: 100%;
+  .containerText{
+    margin: 0 4rem ;
+    padding-top: 16rem;
+    .element {
+      font-family: $font-element;
+      text-align: start;
+      margin: $space-m 0;
+      font-size: large;
+      color: $color-gray;
+    }
+    .saludo {
+      font-size: xx-large;
+      margin: auto 0;
+      font-weight: 600;
+    }
+    .descriptionL {
+      font-size: x-large;
+      font-weight: 400;
+      color: $color-gray;
+    }
+    .descriptionN {
+      font-size: x-large;
+      font-weight: 300;
+      color: $color-cyan;
+    }
+  }
+  Lottie{
+    height: 500px;
+  }
+  @media screen and (max-width: $screen-l) {
+    .containerText{
+      padding-top: 6rem;
+      .saludo{
+        font-size: x-large;
+
+      }
+      .descriptionL, .descriptionN{
+        font-size: large;
+      }
+    }
+  }
+  @media screen and (max-width: $screen-m) {
+    .containerText{
+      padding-top: 6rem;
+      .saludo{
+        font-size: large;
+
+      }
+      .descriptionL, .descriptionN{
+        font-size: medium;
+      }
+    }
+  }
+}

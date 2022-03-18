@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+  .buttonUp{
+    margin: -7px 11px 0 0;
+    font-size: 60px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+
+  }
+
+.backLight{
+
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: .4s ease all;
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  color: $color-gray;
+  &:hover{
+    box-shadow: $box-shadow;
+    background: $color-black;
+    color: $color-white;
+    transition: .4s ease all;
+  }
+}
+.backNight{
+
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: .4s ease all;
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  background: $color-black;
+  color: $color-gray;
+  &:hover{
+    box-shadow: $box-shadow2;
+    background: $color-white;
+    color: $color-black2;
+    transition: .4s ease all;
+  }
+}

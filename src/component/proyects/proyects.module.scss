@@ -1,0 +1,115 @@
+@import "../../styles/variables.scss";
+
+.container {
+  //height: 100vh;
+  text-align: center;
+  padding: 0 12rem;
+
+  .bar_x_light{
+    height: 1px;
+    margin: 0 20% 8rem 20% ;
+    background: $color-disabled
+  }
+  .bar_x_night{
+    height: 1px;
+    margin: 0 20% 8rem 20% ;
+    background: $color-gray
+  }
+  
+  p {
+    margin: 6rem 0;
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+  .containerProyects {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+
+    .cards {
+      height: 200px;
+      width: 200px;
+      border-radius: 8px;
+      background: $color-gray ;
+      color: $color-disabled ;
+      border: 4px solid $color-gray;
+      border-bottom: 0;
+      overflow: hidden;
+      position: relative;
+      transition: .4s ease all;
+    
+      .card_title{
+        cursor: pointer;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 1rem 0;
+        font-size: large;
+        transition: .4s ease all;
+      }
+      .description{
+        visibility: hidden;
+        position: absolute;
+        border-radius: 10px;
+        top: 100%;
+        left: 50%;
+        width: 100%;
+        height: 80%;
+        transform: translateX(-50%);
+        background-color: $color-disabled;  
+        transition: .4s ease all;
+        text-align:center;
+        
+        p{
+          cursor: pointer;
+          margin: 1rem 4px;
+          font-size: small;
+          font-weight: 400;
+          color: $color-black;
+          transition: .1s ease all;
+
+        }
+        .sub_description{
+          //background: $color-gray;
+          color: $color-gray;
+        }
+      }
+      &:hover{
+        color: $color-disabled;
+        background: $color-gray;
+        box-shadow: $box-shadow2;
+        transition: .4s ease all;
+        
+        .card_title{
+          top: 4px;
+          color: $color-white;
+          transition: .2s ease all;
+
+        }
+        .description{
+          position: absolute;
+          top: 25%;
+          left: 50%;
+          width: 100%;
+          height: 100%;
+          visibility: visible;
+          display: block;
+          transition: .3s ease all;
+        
+        }
+    }
+    }
+  }
+  @media screen and (max-width: $screen-l) {
+    padding: 0 2rem;
+    p{
+      font-size: large;
+    }
+  }
+
+}
