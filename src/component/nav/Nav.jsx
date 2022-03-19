@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "./nav.module.scss";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export const Nav = ({ onLight, setOnLight }) => {
   const [stop, setStop] = useState(false);

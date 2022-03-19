@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./buttonHome.module.scss";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export const ButtonHome = ({ onLight }) => {
   return (

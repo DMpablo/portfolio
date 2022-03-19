@@ -5,12 +5,11 @@
   font-size: 40px;
   transform: rotate(-90deg);
   cursor: pointer;
- 
 }
 
 .backLight {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
   transition: 0.4s ease all;
   position: fixed;
@@ -18,15 +17,15 @@
   right: 20px;
   color: $color-gray;
   &:hover {
-    box-shadow: $box-shadow;
+    box-shadow: $box-shadow2;
     background: $color-black;
     color: $color-white;
     transition: 0.4s ease all;
   }
 }
 .backNight {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
   transition: 0.4s ease all;
   position: fixed;

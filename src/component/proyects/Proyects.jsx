@@ -13,6 +13,7 @@ export const Proyects = ({ onLight }) => {
           <a
             className={style.a}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://kalenislims.com/"
           >
             <p className={style.card_title}>Kalenis lims</p>
@@ -32,7 +33,8 @@ export const Proyects = ({ onLight }) => {
           <a
             className={style.a}
             target="_blank"
-            href="https://dmpablo.github.io/insumosmedicos-de-marco/"
+            rel="noopener noreferrer"
+            href="https://klavijero.herokuapp.com/"
           >
             <p className={style.card_title}>Klavijero</p>
           </a>
@@ -54,6 +56,7 @@ export const Proyects = ({ onLight }) => {
           <a
             className={style.a}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://dmpablo.github.io/insumosmedicos-de-marco/"
           >
             <p className={style.card_title}>Insumos medicos</p>
@@ -72,6 +75,7 @@ export const Proyects = ({ onLight }) => {
           <a
             className={style.a}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://api-marvel-bae95.web.app/"
           >
             <p className={style.card_title}>Api marvel</p>
@@ -89,6 +93,7 @@ export const Proyects = ({ onLight }) => {
           <a
             className={style.a}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://notes-projetc.web.app/"
           >
             <p className={style.card_title}>Note proyect</p>
@@ -107,6 +112,7 @@ export const Proyects = ({ onLight }) => {
           <a
             className={style.a}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://dmpablo.github.io/entregaFinalCoder/"
           >
             <p className={style.card_title}>Pedilo aca</p>
@@ -131,6 +137,7 @@ export const Proyects = ({ onLight }) => {
           <a
             className={style.a}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://dmpablo.github.io/buena-vibra/#"
           >
             <p className={style.card_title}>Buena vibra</p>
@@ -147,6 +154,7 @@ export const Proyects = ({ onLight }) => {
           <a
             className={style.a}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://ladoxlado-mnuebles.netlify.app/"
           >
             <p className={style.card_title}>Lado x Lado</p>
