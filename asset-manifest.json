@@ -1,24 +1,24 @@
 {
-  "main.css": "/portfolio/static/css/main.dd5d5e2e.chunk.css",
-  "main.js": "/portfolio/static/js/main.2e640bf0.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.2e640bf0.chunk.js.map",
-  "static/js/1.217be5ca.chunk.js": "/portfolio/static/js/1.217be5ca.chunk.js",
-  "static/js/1.217be5ca.chunk.js.map": "/portfolio/static/js/1.217be5ca.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/media/bxl-html5.4776f2b3.svg": "/portfolio/static/media/bxl-html5.4776f2b3.svg",
-  "static/media/bxl-sass.7c4d92c2.svg": "/portfolio/static/media/bxl-sass.7c4d92c2.svg",
-  "static/media/bxl-git.c39ec4f5.svg": "/portfolio/static/media/bxl-git.c39ec4f5.svg",
-  "static/media/bxl-github.d034e91c.svg": "/portfolio/static/media/bxl-github.d034e91c.svg",
-  "static/media/bxl-javascript.4b9ae4f7.svg": "/portfolio/static/media/bxl-javascript.4b9ae4f7.svg",
-  "static/media/bxl-react.99e67caa.svg": "/portfolio/static/media/bxl-react.99e67caa.svg",
-  "static/media/bxl-css3.dc377966.svg": "/portfolio/static/media/bxl-css3.dc377966.svg",
-  "static/media/bxs-file-json.27cb103f.svg": "/portfolio/static/media/bxs-file-json.27cb103f.svg",
-  "static/media/workana.8792c3f1.svg": "/portfolio/static/media/workana.8792c3f1.svg",
-  "static/media/gmail.9dbc79da.svg": "/portfolio/static/media/gmail.9dbc79da.svg",
-  "static/media/linkedin.831a9224.svg": "/portfolio/static/media/linkedin.831a9224.svg",
-  "static/css/main.dd5d5e2e.chunk.css.map": "/portfolio/static/css/main.dd5d5e2e.chunk.css.map",
-  "index.html": "/portfolio/index.html",
-  "precache-manifest.540b8120759c976859d324bad1a95156.js": "/portfolio/precache-manifest.540b8120759c976859d324bad1a95156.js",
-  "service-worker.js": "/portfolio/service-worker.js"
+  "files": {
+    "main.css": "/portfolio/static/css/main.7365f9da.css",
+    "main.js": "/portfolio/static/js/main.a9a4b0e9.js",
+    "static/media/workana.svg": "/portfolio/static/media/workana.d970059fd3838b6aa17cd0dd5b910193.svg",
+    "static/media/bxl-react.svg": "/portfolio/static/media/bxl-react.07774d3d9d230ec8e5118276768502af.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.400c860fa08bd48326f294a9b2bdb8f1.svg",
+    "static/media/bxl-sass.svg": "/portfolio/static/media/bxl-sass.e3b1cca0a4b239662a22a747fd6b12d7.svg",
+    "static/media/bxs-file-json.svg": "/portfolio/static/media/bxs-file-json.1835980421dc78d8ed1c03cbc355075e.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/bxl-javascript.svg": "/portfolio/static/media/bxl-javascript.9a73de62578dab08978140babd4b4c67.svg",
+    "static/media/bxl-github.svg": "/portfolio/static/media/bxl-github.7f5f78b1168a9147c54884d407208933.svg",
+    "static/media/bxl-git.svg": "/portfolio/static/media/bxl-git.6ed196f78692d6f31ff7e905f7afce0d.svg",
+    "static/media/gmail.svg": "/portfolio/static/media/gmail.5f93003b135e241b018af7d37cf22723.svg",
+    "static/media/bxl-html5.svg": "/portfolio/static/media/bxl-html5.d399be1c0e09cc0718777cdb9f6de6ab.svg",
+    "static/media/bxl-css3.svg": "/portfolio/static/media/bxl-css3.f41408124bc3cbd2115c5bd6b49cf4cb.svg",
+    "main.7365f9da.css.map": "/portfolio/static/css/main.7365f9da.css.map",
+    "main.a9a4b0e9.js.map": "/portfolio/static/js/main.a9a4b0e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7365f9da.css",
+    "static/js/main.a9a4b0e9.js"
+  ]
 }
