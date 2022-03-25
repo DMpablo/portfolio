@@ -13,6 +13,7 @@
   font-size: large;
   box-shadow: $box-shadow;
   z-index: 1;
+  transition: .3s ease all;
   .container_nav_menu {
     //padding: 0 1rem;
     display: flex;

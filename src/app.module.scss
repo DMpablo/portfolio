@@ -3,6 +3,7 @@
 .containerLight {
   background-color: $color-white;
   color: $color-gray;
+  transition: .3s ease all;
   nav {
     background-color: $color-white2;
   }
@@ -11,6 +12,7 @@
 .containerNight {
   background-color: $color-black2;
   color: $color-gray;
+  transition: .3s ease all;
   nav {
     background-color: $color-black;
   }
