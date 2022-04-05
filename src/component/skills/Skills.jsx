@@ -14,7 +14,7 @@ export const Skills = ({onLight}) => {
     <div className={style.container}>
       <div className={onLight ? style.bar_x_light : style.bar_x_night} />
       <p className={style.p}>
-      Estas son algunas de las tecnologías que manejo.
+        These are some of my skills
       </p>
       <div className={style.containerIcons}>
         <Html5 className={style.icons} />

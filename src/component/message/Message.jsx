@@ -6,7 +6,7 @@ export const Message = ({ onLight }) => {
     <div className={style.container}>
       <div className={onLight ? style.bar_x_light : style.bar_x_night} />
       <p className={onLight ? style.light : style.night}>
-        " El primer paso no te lleva donde querés ir, <br /> pero te saca de donde estás. "
+        " The first step doesn't take you where you want to go, <br /> but it takes you from where you are. "
       </p>
     </div>
   );

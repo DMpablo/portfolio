@@ -7,9 +7,9 @@ export const Welcome = ({ onLight }) => {
   return (
     <div name="home" className={style.containerWelcome}>
       <div className={style.containerText}>
-        <p className={style.saludo}>Hola, soy Pablo DM </p>
+        <p className={style.saludo}>Hi, I'm Pablo DM </p>
         <p className={onLight ? style.descriptionL : style.descriptionN}>
-          y soy desarrollador Frontend
+            and I'm a Frontend developer
         </p>
       </div>
       <Lottie animationData={DevBlue} />

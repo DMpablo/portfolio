@@ -10,7 +10,7 @@ export const Footer = ({ onLight }) => {
   return (
     <div  name="contact" className={style.container}>
      <div className={onLight ? style.bar_x_light : style.bar_x_night} />
-      <p className={style.p}>información de contacto</p>
+      <p className={style.p}>contact information</p>
       <div className={style.containerIcons}>
         <a href="https://github.com/DMpablo" rel="noopener noreferrer" target="_blank" >
           <Github className={style.icons} />
@@ -24,11 +24,13 @@ export const Footer = ({ onLight }) => {
           <Gmail className={style.icons} />
           <p>phdemarco@gmail.com</p>
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.workana.com/freelancer/d3d116be78b4d060dc298eb0f228d718" >
-          <Workana className={style.icons} />
-          <p>Pablo DM</p>
-        </a>
       </div>
     </div>
   );
 };
+
+/*
+<a target="_blank" rel="noopener noreferrer" href="https://www.workana.com/freelancer/d3d116be78b4d060dc298eb0f228d718" >
+<Workana className={style.icons} />
+<p>Pablo DM</p>
+</a>*/

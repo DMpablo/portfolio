@@ -39,7 +39,7 @@ export const Nav = ({ onLight, setOnLight }) => {
           offset={-70}
           duration={500}
         >
-          Proyectos
+          Proyects
         </Link>
 
 
@@ -52,7 +52,7 @@ export const Nav = ({ onLight, setOnLight }) => {
           offset={-70}
           duration={500}
         >
-          Contacto
+          Contact
         </Link>
       </div>
 

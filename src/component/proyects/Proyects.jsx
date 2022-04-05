@@ -5,7 +5,7 @@ export const Proyects = ({ onLight }) => {
   return (
     <div name="proyect" className={style.container}>
       <div className={onLight ? style.bar_x_light : style.bar_x_night} />
-      <p> Proyectos que realice y algunos donde participe </p>
+      <p> Completed projects and others where I participate</p>
 
       <div className={style.containerProyects}>
 
@@ -19,11 +19,9 @@ export const Proyects = ({ onLight }) => {
             <p className={style.card_title}>Kalenis lims</p>
           </a>
           <div className={style.description}>
-            <p>Empresa de software</p>
+            <p>Software company</p>
             <p>
-              Participe en el mantenimiento <br />
-              y desarrollo de su producto <br />
-              como dev. Frontend.
+            perform maintenance <br /> and update your product <br /> as a dev. frontend.
             </p>
             <p className={style.sub_description}>React | yarn | Tailwind </p>
           </div>
@@ -40,10 +38,10 @@ export const Proyects = ({ onLight }) => {
           </a>
           <div className={style.description}>
             <p>
-              Aplicacion web <br /> de canciones y acordes
+              web application <br /> of songs and chords
             </p>
             <p>
-              Participe en su actualizacion <br /> como dev. frontend
+            perform part of your upgrade <br /> as dev. front-end.
             </p>
 
             <p className={style.sub_description}>
@@ -62,11 +60,11 @@ export const Proyects = ({ onLight }) => {
             <p className={style.card_title}>Insumos medicos</p>
           </a>
           <div className={style.description}>
-            <p>e-commerce de insumos descartables medicos</p>
-            <p>
-              proyecto final del curso <br />
-              ReactJs en coderhouse
-            </p>
+          <p> e-commerce on medical disposables </p>
+          <p>
+               course final project <br />
+               ReactJs on coderhouse
+             </p>
             <p className={style.sub_description}>React | npm | Firebase </p>
           </div>
         </div>
@@ -81,10 +79,10 @@ export const Proyects = ({ onLight }) => {
             <p className={style.card_title}>Api marvel</p>
           </a>
           <div className={style.description}>
-            <p>
-              Pagina donde recopila información acerca de <br /> personajes de
-              Marvel
-            </p>
+          <p>
+               Page where you collect information about <br /> characters from
+               Marvel
+             </p>
             <p className={style.sub_description}> React | npm | API </p>
           </div>
         </div>
@@ -99,10 +97,10 @@ export const Proyects = ({ onLight }) => {
             <p className={style.card_title}>Note proyect</p>
           </a>
           <div className={style.description}>
-            <p>
-              Proyecto de notas <br /> donde practique <br /> style module
-              component <br /> en sass.
-            </p>
+          <p>
+               Notes project <br /> where I practice <br /> style module
+               component <br /> in sass.
+             </p>
 
             <p className={style.sub_description}> React | npm | Sass </p>
           </div>
@@ -118,13 +116,13 @@ export const Proyects = ({ onLight }) => {
             <p className={style.card_title}>Pedilo aca</p>
           </a>
           <div className={style.description}>
-            <p>
-              e-commerce <br /> venta de alimentos en linea
-            </p>
-            <p>
-              proyecto final para el <br /> curso JavaScript <br /> en
-              coderhouse
-            </p>
+          <p>
+               e-commerce <br /> online food sales
+             </p>
+             <p>
+               final project for the <br /> JavaScript course <br /> in
+               codehouse
+             </p>
 
             <p className={style.sub_description}>
               {" "}
@@ -143,9 +141,9 @@ export const Proyects = ({ onLight }) => {
             <p className={style.card_title}>Buena vibra</p>
           </a>
           <div className={style.description}>
-            <p>
-              Pagina de contacto <br /> de centro de belleza
-            </p>
+          <p>
+               Contact page <br /> of beauty center
+             </p>
             <p className={style.sub_description}> React | Boostrap </p>
           </div>
         </div>
@@ -160,9 +158,9 @@ export const Proyects = ({ onLight }) => {
             <p className={style.card_title}>Lado x Lado</p>
           </a>
           <div className={style.description}>
-            <p>
-              Pagina de contacto <br /> muebles estilo industrial
-            </p>
+          <p>
+               Contact page <br /> industrial style furniture
+             </p>
             <p className={style.sub_description}> HTML | CSS | Boostrap </p>
           </div>
         </div>
