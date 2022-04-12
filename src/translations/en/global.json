@@ -9,10 +9,7 @@
     "welcome": "Hi, I'm Pablo DM",
     "description": "and I'm a Frontend developer"
   },
-  "Message": {
-    "p1": "'The first step will not take you to the finish line,",
-    "p2": "but will certainly lead the way.'"
-  },
+  "Message": "'The first step will not take you to the finish line, but will certainly lead the way.",
   "Skills": {
     "p": "My skills"
   },
