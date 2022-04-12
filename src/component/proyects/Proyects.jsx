@@ -9,56 +9,64 @@ export const Proyects = ({ onLight }) => {
     {
       name: t("proyects.Kalenis.name"),
       title: t("proyects.Kalenis.title"),
-      descriptions: t("proyects.Kalenis.descriptions"),
+      descriptionsL1: t("proyects.Kalenis.descriptionsL1"),
+      descriptionsL2: t("proyects.Kalenis.descriptionsL2"),
       url: t("proyects.Kalenis.url"),
       tools: t("proyects.Kalenis.tools"),
     },
     {
       name: t("proyects.klavijero.name"),
       title: t("proyects.klavijero.title"),
-      descriptions: t("proyects.klavijero.descriptions"),
+      descriptionsL1: t("proyects.klavijero.descriptionsL1"),
+      descriptionsL2: t("proyects.klavijero.descriptionsL2"),
       url: t("proyects.klavijero.url"),
       tools: t("proyects.klavijero.tools"),
     },
     {
       name: t("proyects.InsumosMedicos.name"),
       title: t("proyects.InsumosMedicos.title"),
-      descriptions: t("proyects.InsumosMedicos.descriptions"),
+      descriptionsL1: t("proyects.InsumosMedicos.descriptionsL1"),
+      descriptionsL2: t("proyects.InsumosMedicos.descriptionsL2"),
       url: t("proyects.InsumosMedicos.url"),
       tools: t("proyects.InsumosMedicos.tools"),
     },
     {
       name: t("proyects.MarvelApi.name"),
       title: t("proyects.MarvelApi.title"),
-      descriptions: t("proyects.MarvelApi.descriptions"),
+      descriptionsL1: t("proyects.MarvelApi.descriptionsL1"),
+      descriptionsL2: t("proyects.MarvelApi.descriptionsL2"),
       url: t("proyects.MarvelApi.url"),
       tools: t("proyects.MarvelApi.tools"),
     },
     {
       name: t("proyects.NoteProyect.name"),
       title: t("proyects.NoteProyect.title"),
-      descriptions: t("proyects.NoteProyect.descriptions"),
+      descriptionsL1: t("proyects.NoteProyect.descriptionsL1"),
+      descriptionsL2: t("proyects.NoteProyect.descriptionsL2"),
       url: t("proyects.NoteProyect.url"),
       tools: t("proyects.NoteProyect.tools"),
     },
     {
       name: t("proyects.PediloAca.name"),
       title: t("proyects.PediloAca.title"),
-      descriptions: t("proyects.PediloAca.descriptions"),
+      descriptionsL1: t("proyects.PediloAca.descriptionsL1"),
+      descriptionsL2: t("proyects.PediloAca.descriptionsL2"),
       url: t("proyects.PediloAca.url"),
       tools: t("proyects.PediloAca.tools"),
     },
     {
       name: t("proyects.BuenaVibra.name"),
       title: t("proyects.BuenaVibra.title"),
-      descriptions: t("proyects.BuenaVibra.descriptions"),
+      descriptionsL1: t("proyects.BuenaVibra.descriptionsL1"),
+      descriptionsL2: t("proyects.BuenaVibra.descriptionsL2"),
       url: t("proyects.BuenaVibra.url"),
       tools: t("proyects.BuenaVibra.tools"),
     },
     {
       name: t("proyects.LadoXLado.name"),
       title: t("proyects.LadoXLado.title"),
-      descriptions: t("proyects.LadoXLado.descriptions"),
+      descriptionsL1: t("proyects.LadoXLado.descriptionsL1"),
+      descriptionsL2: t("proyects.LadoXLado.descriptionsL2"),
       url: t("proyects.LadoXLado.url"),
       tools: t("proyects.LadoXLado.tools"),
     },
@@ -69,8 +77,8 @@ export const Proyects = ({ onLight }) => {
   return (
     <div name="proyect" className={style.container}>
       <div className={onLight ? style.bar_x_light : style.bar_x_night}/>
-        <p> {t("Proyect.title")}</p>
-       
+        <p> {t("Proyect_title.p1")}</p>
+        <p> {t("Proyect_title.p2")}</p>
         <div className={style.containerProyects}>
           {allProyects.length >= 0 ? (
             allProyects.map((e) => (
@@ -84,8 +92,9 @@ export const Proyects = ({ onLight }) => {
                   <p className={style.card_title}>{e.name}</p>
                 </a>
                 <div className={style.description}>
-                  <p>{e.title}</p>
-                  <p>{e.descriptions}</p>
+                  <p className={style.subtitle}>{e.title}</p>
+                  <p>{e.descriptionsL1}</p>
+                  <p>{e.descriptionsL2}</p>
                   <p className={style.sub_description}>{e.tools}</p>
                 </div>
               </div>

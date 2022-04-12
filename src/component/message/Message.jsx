@@ -9,7 +9,10 @@ export const Message = ({ onLight }) => {
     <div className={style.container}>
       <div className={onLight ? style.bar_x_light : style.bar_x_night} />
       <p className={onLight ? style.light : style.night}>
-      {t("Message.p")}
+      {t("Message.p1")}
+      </p>
+      <p className={onLight ? style.light : style.night}>
+      {t("Message.p2")}
       </p>
     </div>
   );

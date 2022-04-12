@@ -13,16 +13,17 @@
   .bar_x_night{
     height: 1px;
     margin: 0 20% 8rem 20% ;
-    background: $color-gray
+    background: $color-gray;
+    margin-bottom: 6rem;
   }
   
   p {
-    margin: 6rem 0;
     font-size: x-large;
     font-weight: 600;
   }
 
   .containerProyects {
+    margin-top: 6rem;
     display: flex;
     flex-flow: row wrap;
     gap: 4rem;
@@ -71,17 +72,19 @@
         background-color: $color-disabled;  
         transition: .4s ease all;
         text-align:center;
-        
+        padding: 20px 4px 0 4px;
+        .subtitle{
+          margin-bottom: 8px;
+        }
         p{
-          margin: 1rem 4px;
           font-size: small;
           font-weight: 400;
           color: $color-black;
           transition: .1s ease all;
-
+          
         }
         .sub_description{
-          //background: $color-gray;
+          margin-top: 2rem;
           color: $color-gray;
         }
        

@@ -1,16 +1,19 @@
 import React from "react";
 import { ReactComponent as Github } from "../../asset/icons/bxl-github.svg";
-import { ReactComponent as Workana } from "../../asset/icons/workana.svg";
+//import { ReactComponent as Workana } from "../../asset/icons/workana.svg";
 import { ReactComponent as Gmail } from "../../asset/icons/gmail.svg";
 import { ReactComponent as Linkedin } from "../../asset/icons/linkedin.svg";
+import { useTranslation } from "react-i18next";
 
 import style from "./footer.module.scss";
 
 export const Footer = ({ onLight }) => {
+  const [t] = useTranslation("global");
+
   return (
     <div  name="contact" className={style.container}>
      <div className={onLight ? style.bar_x_light : style.bar_x_night} />
-      <p className={style.p}>contact information</p>
+      <p className={style.p}> {t("Footer")}</p>
       <div className={style.containerIcons}>
         <a href="https://github.com/DMpablo" rel="noopener noreferrer" target="_blank" >
           <Github className={style.icons} />
