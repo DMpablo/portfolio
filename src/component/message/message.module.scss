@@ -12,19 +12,22 @@
 
   .bar_x_light {
     height: 1px;
-    margin: 0 20% 8rem 20%;
+    margin: 0 20%;
     background: $color-disabled;
   }
   .bar_x_night {
     height: 1px;
-    margin: 0 20% 8rem 20%;
+    margin: 0 20% 30% 20%;
     background: $color-gray;
   }
   .light {
-    font-weight: 600;
+    font-weight: 400;
+    margin: auto;
+    max-width: 600px;
     color: $color-disabled;
   }
   .night {
+    //font-weight: 100;
     color: $color-cyan;
   }
   @media screen and (max-width: $screen-m) {

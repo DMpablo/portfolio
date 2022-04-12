@@ -9,10 +9,7 @@
     "welcome": "Hola, Soy Pablo DM",
     "description": "y soy desarrollador Frontend"
   },
-  "Message": {
-    "p1": "El primer paso no te lleva a donde queres ir,",
-    "p2": "pero te saca de donde estas."
-  },
+  "Message": "El primer paso no te lleva adonde queres ir, pero te saca de donde estas.",
   "Skills": {
     "p": "Alguno de los skills que manejo"
   },

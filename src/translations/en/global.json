@@ -10,15 +10,15 @@
     "description": "and I'm a Frontend developer"
   },
   "Message": {
-    "p1": "The first step doesn't take you where you want to go,",
-    "p2": "but it takes you from where you are."
+    "p1": "'The first step will not take you to the finish line,",
+    "p2": "but will certainly lead the way.'"
   },
   "Skills": {
-    "p": "These are some of my skills"
+    "p": "My skills"
   },
   "Proyect_title": {
-    "p1": "Completed projects and others",
-    "p2": "where I participate"
+    "p1": "Personal proyect and collaboration",
+    "p2": ""
   },
   "proyects": {
     "Kalenis": {
@@ -86,5 +86,5 @@
       "tools": "HTML | CSS | Boostrap"
     }
   },
-  "Footer": "Contact information"
+  "Footer": "Contact"
 }
