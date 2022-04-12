@@ -1,0 +1,78 @@
+{
+  "Nav": {
+    "proyects": "Proyects",
+    "contact": "Contact",
+    "p-liht": "light",
+    "p-niht": "night"
+  },
+  "Welcome": {
+    "welcome": "Hi, I'm Pablo DM",
+    "description": "and I'm a Frontend developer"
+  },
+  "Message": {
+    "p": "The first step doesn't take you where you want to go, but it takes you from where you are."
+  },
+  "Skills": {
+    "p": "These are some of my skills"
+  },
+  "Proyect.title": "Completed projects and others where I participate",
+  "proyects": {
+      "Kalenis": {
+      "name": "Kalenis Lims",
+      "title": "Software company",
+      "descriptions": "perform maintenance and update your product as a dev. frontend.",
+      "url": "'https://kalenislims.com/'",
+      "tools":"React | yarn | Tailwind"
+    },
+   "klavijero": {
+      "name": "Klavijero",
+      "title": "web application of songs and chords.",
+      "descriptions": "web application of songs and chords",
+      "url":"https://klavijero.herokuapp.com/",
+      "tools":"Angular | TypeScript | Node"
+   
+      },
+      "InsumosMedicos": {
+      "name": "Insumos Medicos",
+      "title": "e-commerce on medical disposables",
+      "descriptions": "course final project ReactJs on coderhouse",
+      "url":"https://dmpablo.github.io/insumosmedicos-de-marco/",
+      "tools":"React | npm | Firebase"
+    },
+    "MarvelApi": {
+      "name": "Marvel-Api",
+      "title": "Proyect practice",
+      "descriptions": "Page where you collect information about characters from Marvel",
+      "url":"https://api-marvel-bae95.web.app/",
+      "tools":"React | npm | API"
+    },
+    "NoteProyect":{
+      "name": "Note proyect",
+      "title": "Proyect practice",
+      "descriptions": "Notes project where I practice style module component in sass",
+      "url":"https://notes-projetc.web.app/",
+      "tools":"React | npm | Sass"
+    },
+    "PediloAca":{
+      "name": "Pedilo aca",
+      "title": "e-commerce online food sales",
+      "descriptions": "final project for the JavaScript course in codehouse.",
+      "url":"https://dmpablo.github.io/entregaFinalCoder/",
+      "tools":"JavaScript | JQuery | JSON"
+    },
+    "BuenaVibra":{
+      "name": "Buena vibra",
+      "title": "Contact page",
+      "descriptions": "Contact page of beauty center",
+      "url":"https://dmpablo.github.io/buena-vibra/#",
+      "tools":"React | Boostrap"
+    },
+    "LadoXLado":{
+      "name": "Lado x Lado",
+      "title": "Contact page",
+      "descriptions": "Contact page industrial style furniture.",
+      "url":"https://ladoxlado-mnuebles.netlify.app/",
+      "tools":"HTML | CSS | Boostrap"
+    }
+  }
+}

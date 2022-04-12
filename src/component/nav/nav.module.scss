@@ -13,7 +13,7 @@
   font-size: large;
   box-shadow: $box-shadow;
   z-index: 1;
-  transition: .3s ease all;
+  transition: 0.3s ease all;
   .container_nav_menu {
     //padding: 0 1rem;
     display: flex;
@@ -26,22 +26,20 @@
       margin: 0 4px 0 1rem;
       font-size: small;
     }
-    .nav_menu_light{
+    .nav_menu_light {
       font-size: medium;
       color: $color-disabled;
-      &:hover{
+      &:hover {
         color: $color-gray;
       }
     }
-    .nav_menu_night{
+    .nav_menu_night {
       font-size: medium;
       color: $color-gray;
-      &:hover{
+      &:hover {
         color: $color-disabled;
       }
     }
-    
-   
   }
 
   .containerButton {
@@ -49,7 +47,41 @@
     font-size: small;
     display: flex;
     align-items: center;
-    button {
+    .containerIcon {
+      padding-top: 4px;
+      margin: 0 20px 0 0;
+      .buttonLanguage{
+        padding: 2px 0 0 0 ;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid $color-disabled;
+        color: $color-disabled;
+        .icon {
+          transition: 0.4s ease all;
+          width: 20px;
+          height: 20px;
+        }
+        .iconActive {
+          transition: 0.4s ease all;
+          width: 20px;
+          height: 20px;
+          color: $color-cyan;
+        }
+        &:hover{
+          cursor: pointer;
+          transition: 0.4s ease all;
+          border: 1px solid $color-cyan;
+          .icon{
+            color: $color-cyan;
+            
+          }
+        }
+      }
+    
+    }
+
+    .mode {
       cursor: pointer;
       height: 20px;
       width: 40px;
@@ -84,7 +116,7 @@
       transition: 0.4s ease all;
     }
 
-    button:hover {
+    .mode:hover {
       .dot_light,
       .dot_night {
         background: $color-cyan;
@@ -99,13 +131,18 @@
       .space {
         display: none;
       }
-      .nav_menu_light, .nav_menu_night{
+      .nav_menu_light,
+      .nav_menu_night {
         margin-left: 4px;
         font-size: small;
-      } 
+      }
     }
     .containerButton {
-      button {
+      .containerIcon {
+        margin: 0 10px 0 0;
+      }
+
+      .mode {
         height: 15px;
         width: 30px;
         margin: 0 4px;

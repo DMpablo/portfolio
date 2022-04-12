@@ -8,14 +8,14 @@ import { ReactComponent as Reactjs } from "../../asset/icons/bxl-react.svg";
 import { ReactComponent as Css } from "../../asset/icons/bxl-css3.svg";
 import { ReactComponent as Json } from "../../asset/icons/bxs-file-json.svg";
 import style from "./skills.module.scss";
+import { useTranslation } from "react-i18next";
 
-export const Skills = ({onLight}) => {
+export const Skills = ({ onLight }) => {
+  const [t] = useTranslation("global");
   return (
     <div className={style.container}>
       <div className={onLight ? style.bar_x_light : style.bar_x_night} />
-      <p className={style.p}>
-        These are some of my skills
-      </p>
+      <p className={style.p}> {t("Skills.p")}</p>
       <div className={style.containerIcons}>
         <Html5 className={style.icons} />
         <Css className={style.icons} />
